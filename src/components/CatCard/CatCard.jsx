@@ -19,7 +19,7 @@ function CatCard({ cat, isFavorite, onToggle }) {
                 <div className={styles.fallback}>🐱</div>
             ) : (
                 <img
-                    src={`https://cataas.com/cat?${cat.id}`}
+                    src={cat.url}
                     alt="котик"
                     onError={() => setImgError(true)}
                     className={styles.image}
