@@ -1,0 +1,46 @@
+.navBar {
+    background: #2196f3;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24);
+}
+
+.navContainer{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 62px;
+    gap: 4px;
+}
+
+.tabButton {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 14px;
+    height: 64px;
+    padding: 23px;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.tabButton:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.tabButtonActive {
+    background: #1e88e5;
+    color: #fff;
+}
