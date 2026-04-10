@@ -5,7 +5,7 @@ import "./reset.css";
 import {BrowserRouter} from "react-router-dom";
 
 createRoot(document.getElementById('root')).render(
-      <BrowserRouter>
+      <BrowserRouter basename="/frontend-challenge">
           <App/>
       </BrowserRouter>
 )
